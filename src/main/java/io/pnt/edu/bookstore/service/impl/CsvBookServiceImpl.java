@@ -2,9 +2,12 @@ package io.pnt.edu.bookstore.service.impl;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import io.pnt.edu.bookstore.dto.Book;
 import io.pnt.edu.bookstore.service.BookService;
 
+@Service("csvBookServiceImpl")
 public class CsvBookServiceImpl implements BookService{
 
 	@Override
